@@ -1,6 +1,18 @@
 .image{
     display:block;
     margin: auto;
-    
-    
+}
+.bigtext{
+    font-size: 30;
+}
+.heroimagetext{
+    color: #926262;
+    font-size:huge;
+    font-family:monotype;
+}
+.bodycolor{
+    background-color:rgb(227, 227, 222);
+}
+.yogafloatimg{
+    float:right;
 }
