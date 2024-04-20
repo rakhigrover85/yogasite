@@ -1,3 +1,6 @@
+.body{
+    font:arial,times;
+}
 .image{
     display:block;
     margin: auto;
@@ -16,3 +19,26 @@
 .yogafloatimg{
     float:right;
 }
+.floated-right {
+    float: right;
+    display:flex;
+  }
+  .floated-left {
+    float: left;
+    display:flex;
+  }
+  .navbar-button{
+    padding:50px;
+  }
+  .background-one{
+    background-color: azure;
+  }
+  .background-two{
+    background-color: beige;
+  }
+  .footer-background{
+    background-color:rgb(190, 185, 185);
+ }
+ .header-background{
+    background-color: rgb(215, 227, 223);
+ }
