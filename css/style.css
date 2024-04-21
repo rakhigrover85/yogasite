@@ -14,7 +14,7 @@
     font-family:monotype;
 }
 .bodycolor{
-    background-color:rgb(227, 227, 222);
+    background-color:rgb(103, 103, 102);
 }
 .yogafloatimg{
     float:right;
@@ -41,4 +41,8 @@
  }
  .header-background{
     background-color: rgb(215, 227, 223);
+ }
+ .bg-color-name-title{
+  background-color: gray;
+
  }
