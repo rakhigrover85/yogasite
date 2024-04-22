@@ -14,9 +14,9 @@
     font-family:monotype;
 }
 .bodycolor{
-    background-color:rgb(103, 103, 102);
+    background-color:rgb(227, 227, 173);
 }
-.yogafloatimg{
+.yogafloating{
     float:right;
 }
 .floated-right {
@@ -31,18 +31,44 @@
     padding:50px;
   }
   .background-one{
-    background-color: azure;
+    background-color: (#E6DCD3);
   }
   .background-two{
-    background-color: beige;
+    background-color: (B4A79E);
   }
   .footer-background{
-    background-color:rgb(190, 185, 185);
+    background-color:(lightslategray);
  }
- .header-background{
-    background-color: rgb(215, 227, 223);
- }
+ 
  .bg-color-name-title{
-  background-color: gray;
+  background-color: (#3f253c);
 
  }
+ #menu{
+  font-size: 14;
+  list-style-type: none;
+  letter-spacing: 3px;
+  height: 20px;
+ }
+ #menu li{
+  float: right;
+ }
+ #menu a{
+  text-decoration: none;
+
+ }
+ #menu a:hover{
+  border-bottom: #3f253c;
+ }
+ .nav-link{
+  color:#3d513d;
+ }
+
+ .listitems{
+  padding-left: 70px;
+  color: #3f253c;
+  font-size: 16;
+  font-weight: bold;
+ }
+
+ 
