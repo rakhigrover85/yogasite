@@ -1,17 +1,47 @@
 .body{
     font:arial,times;
+
 }
-.image{
-    display:block;
-    margin: auto;
+.sign-up-button{
+  background: linear-gradient(45deg, pink and light rgb(65, 140, 190));
+  color: rgb(221, 116, 116);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 4red;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
-.bigtext{
-    font-size: 30;
+
+.hero-image{
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  animation: animate 3s linear infinite;
 }
+@keyframes animate{
+  0%{
+    filter:hue-rotate(0deg);
+  }
+  100%{
+    filter:hue-rotate(360deg);
+  }
+}
+.img-box{
+  width:500px;
+  height: 500px;
+}
+.img-box img{
+  width: 100%;
+  height: 100%;
+}
+
 .heroimagetext{
-    color: #926262;
-    font-size:huge;
+    color: #959fb4;
+    font-size:10;
     font-family:monotype;
+    padding-bottom: 20px;
 }
 .bodycolor{
     background-color:rgb(227, 227, 173);
@@ -31,7 +61,7 @@
     padding:50px;
   }
   .background-one{
-    background-color: (#E6DCD3);
+    background-color: (#dfbfa3);
   }
   .background-two{
     background-color: (B4A79E);
@@ -69,6 +99,9 @@
   color: #3f253c;
   font-size: 16;
   font-weight: bold;
+ }
+ .yogatext{
+  padding-left: 50px;
  }
 
  
