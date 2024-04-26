@@ -1,10 +1,13 @@
 .body{
-    font:arial,times;
+  margin: 0;
+  padding: 0;
+  font:arial, sans-sariff;
+  background:rgb(34, 99, 129);
 
 }
 .sign-up-button{
-  background: linear-gradient(45deg, pink and light rgb(65, 140, 190));
-  color: rgb(221, 116, 116);
+  background: linear-gradient(45deg, rgb(189, 14, 44) and light rgb(3, 30, 48));
+  color: rgb(8, 119, 133);
   padding: 10px 20px;
   border-radius: 10px;
   font-size: 4red;
@@ -37,8 +40,18 @@
   height: 100%;
 }
 
+.yoga-image{
+  
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  
+}
+.text-box{
+
+}
 .heroimagetext{
-    color: #959fb4;
+    color: #096562;
     font-size:10;
     font-family:monotype;
     padding-bottom: 20px;
@@ -59,6 +72,7 @@
   }
   .navbar-button{
     padding:50px;
+    color: lightblue;
   }
   .background-one{
     background-color: (#dfbfa3);
@@ -71,7 +85,7 @@
  }
  
  .bg-color-name-title{
-  background-color: (#3f253c);
+  background-color: (#32a6b6);
 
  }
  #menu{
@@ -96,12 +110,40 @@
 
  .listitems{
   padding-left: 70px;
-  color: #3f253c;
+  color: #1f85a1;
   font-size: 16;
   font-weight: bold;
  }
  .yogatext{
   padding-left: 50px;
  }
-
+ .benefit-img{
+  height: 250px;
+  width: 350px;
+ }
+ .types-yoga{
  
+ }
+
+ .gallary-img{
+  height: 350px;
+  width: 400px;
+
+ }
+ .img-gallery{
+  
+  
+  
+ 
+  grid-gap:30px;
+ }
+ .img-gallery img{
+ 
+  cursor:pointer;
+ }
+
+ .img-gallery img:hover{
+  transform: scale(0.8) rotate(-15deg);
+  border-radius:20px;
+  box-shadow:0 32px 75px rgba(68,77,136,0.2)
+ }
