@@ -5,6 +5,9 @@
   background:rgb(34, 99, 129);
 
 }
+.header{
+  position:fixed;
+}
 .sign-up-button{
   background: linear-gradient(45deg, rgb(189, 14, 44) and light rgb(3, 30, 48));
   color: rgb(8, 119, 133);
@@ -109,7 +112,7 @@
  }
 
  .listitems{
-  padding-left: 70px;
+  padding-left: 40px;
   color: #1f85a1;
   font-size: 16;
   font-weight: bold;
@@ -146,4 +149,7 @@
   transform: scale(0.8) rotate(-15deg);
   border-radius:20px;
   box-shadow:0 32px 75px rgba(68,77,136,0.2)
+ }
+ .nounderline{
+  text-decoration: none;
  }

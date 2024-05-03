@@ -17,35 +17,35 @@
                 <div class="row mb-3">
                     <div class="col-md-6">
                         <label for="first_name">FirstName</label>
-                        <input type="text" class="form-control"  id="first_name"  required>
+                        <input type="text" class="form-control"  id="first_name"  required autocomplete="off">
                     </div>
                     <div class="col-md-6">
                         <label for="first_name">LastName</label>
-                        <input type="text" class="form-control"  id="Last_name"  required>
+                        <input type="text" class="form-control"  id="Last_name"  required autocomplete="off">
                     </div>
                     <div class="col-md-6">
                         <label for="email_id">Email Id</label>
-                        <input type="text" class="form-control"  id="email_id"  required>
+                        <input type="email" class="form-control"  id="email_id"  required autocomplete="off">
                     </div>
                     <div class="col-md-6">
                         <label for="password">Password</label>
-                        <input type="text" class="form-control"  id="password"  required>
+                        <input type="text" class="form-control"  id="password" pattern="[a-zA-Z0-9]" required  autocomplete="off">
                     </div>
                     <div class="col-md-6">
                         <label for="phone_num">Phone</label>
-                        <input type="text" class="form-control"  id="phone_num"  required>
+                        <input type="tel" class="form-control"  id="phone_num" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required autocomplete="off">
                     </div>
                     <div class="col-md-6">
                         <label for="Mobile_num">Mobile</label>
-                        <input type="text" class="form-control"  id="Mobile_num"  required>
+                        <input type="number" class="form-control"  id="Mobile_num" maxlength="10" autocomplete="off" required >
                     </div>
                     <div class="col-md-12">
                         <label for="address">Address</label>
-                        <textarea type="text" class="form-control" rows="5" id="address"  required></textarea>
+                        <textarea type="text" class="form-control" rows="5" id="address"  required autocomplete="off"></textarea>
                     </div>
                     <div class="col-md-3">
                         <label for="city">City</label>
-                        <input type="text" class="form-control"  id="City"  required>
+                        <input type="text" class="form-control"  id="City"  required autocomplete="off">
                     </div>
                     <div class="col-md-3">
                         <label for="state">State</label>
@@ -60,7 +60,7 @@
                     </div>
                     <div class="col-md-2">
                         <label for="Postcode">Postcode</label>
-                        <input type="text" class="form-control"  id="Postcode"  required>
+                        <input type="text" class="form-control"  id="Postcode"  required autocomplete="off">
                     </div>
                     <div row="col-md-6 mt-3">
                         <div class="col-md-3 mt-3">
