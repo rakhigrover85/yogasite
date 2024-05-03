@@ -1,12 +1,19 @@
-.body{
-  margin: 0;
-  padding: 0;
+.body{  
+  margin-top: 0%;
+  padding-top: 0%;
+
   font:arial, sans-sariff;
-  background:rgb(34, 99, 129);
+  background:rgb(196, 200, 201);
 
 }
 .header{
+  padding-top: 0%;
+  margin-top: 0%;
   position:fixed;
+  height: 100px;
+  width: 100%;
+  background-color: #dee7de;
+  z-index: 999999;
 }
 .sign-up-button{
   background: linear-gradient(45deg, rgb(189, 14, 44) and light rgb(3, 30, 48));
@@ -20,6 +27,7 @@
 }
 
 .hero-image{
+  padding-top: 100px;
   display: block;
   margin: auto;
   width: 100%;
