@@ -8,31 +8,37 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css\style.css">
     </head>
-        <body class="body">
-            <div class="container  bg-color-name-title  ">             
-              <header class="header d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-                  <div class="col-md-3 mb-2 mb-md-0">
-                    <img id = "logo" class="floated-left img-thumbnail"src="Images\yoga logo.jpg" alt = "logo Image" height="100" width="100">
-                  </div>
-                  <nav id="menu" >
-                    <ul class="nav col-12 col-md-auto mb-2 justify-content-left mb-md-0">
-                      <li><a href="#yoga" class=" listitems" link-secondary>Yoga</a></li>
-                      <li><a href="#benefits" class="listitems ">Benefits</a></li>
-                      <li><a href="#types" class="listitems ">Types and Gallary</a></li>
-                      
+    <body>    
+      <div class="container  bg-color-name-title ">  
+        <nav class="header navbar navbar-expand-sm  navbar-expand{-sm|-md|-lg|-xl} navbar " style="background-color: #8c8189;" aria-label="navigation-bar">
+          <div class="container">
+            <img class="logo-image" src="Images/yoga logo.jpg"  width="60" height="50"  alt="logo image" >
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation-bar" aria-controls="navigation-bar" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse " id="navigation-bar">
+            <ul class="navbar-nav mb-2 me=20px mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="index.html" href="index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#benefits">Benefits</a>
+              </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle .navbar .navbar-collapse li" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Register</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                  <li><a class="dropdown-item" href="signup.html">Sign-up</a></li>
+                  <li><a class="dropdown-item" href="courses.html">courses</a></li>
+                  <li><a class="dropdown-item" href="contactus.html">contact-us</a></li>
+                </ul>
+          </li>                 
+                </div>
+              </div>
+            </nav> 
+          </head>   
             
-                      <li><a href="table.html" class="listitems">Classes</a></li>
-                    
-                    </ul>
-                  </nav>
+            <body>
             
-                  <div class="container col-md-3 text-end">
-                    <a href="signup.html">
-                
-                    <button type="button" class="sign-up-button">Sign-up</button></a>
-                    
-                  </div>
-                </header>
                 <section>
                   
                     <div id="heroimage img-box heroimage-outer" class="container background-one" >               
@@ -43,14 +49,24 @@
                 </section>
                 <div class= "mt-20 container fluid background-two mt-10">
                   <section >
-                    <div class= container >
-                      <h1 id="yoga"class="mt-10">What is yoga?</h1>
-                      <video src="https://www.youtube.com/watch?v=1Je0mu4GG-o&ab_channel=Infognostica"></video>
-                     
-                        <video width="320" height="240" controls>What Is Yoga> <source src="https://www.youtube.com/watch?v=1Je0mu4GG-o&ab_channel=Infognostica" type="video/mp4"></video>" 
-                        <p class="text-center">Yoga is essentially a spiritual discipline based on an extremely subtle science, which focuses on bringing harmony between mind and body. It is an art and scince of healthy living. The word ‘Yoga’ is derived from the Sanskrit root ‘Yuj’, meaning ‘to join’ or ‘to yoke’ or ‘to unite’. As per Yogic scriptures the practice of Yoga leads to the union of individual consciousness with that of the Universal Consciousness, indicating a perfect harmony between the mind and body, Man & Nature. According to modern scientists, everything in the universe is just a manifestation of the same quantum firmament. One who experiences this oneness of existence is said to be in yoga, and is termed as a yogi, having attained to a state of freedom referred to as mukti, nirvana or moksha. Thus the aim of Yoga is Self-realization, to overcome all kinds of sufferings leading to 'the state of liberation' (Moksha) or ‘freedom’ (Kaivalya). Living with freedom in all walks of life, health and harmony shall be the main objectives of Yoga practice."Yoga” also refers to an inner science comprising of a variety of methods through which human beings can realize this union and achieve mastery over their destiny.Yoga, being widely considered as an ‘immortal cultural outcome’ of Indus Saraswati Valley civilization – dating back to 2700 B.C., has proved itself catering to both material and spiritual upliftment of humanity.Basic humane values are the very identity of Yoga Sadhana.</p>
+                    <div class= "container" >
 
-                        <div class= "mt-20 container fluid background-two mt-10">
+                      <table width="100%">
+                        <tr>
+                          <td valign="top" width="50%">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/hUXdY8mKGEA?si=4BaSCJ4pFm921guO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          
+                          </td>
+                          <td  valign="top" width="50%">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/1Je0mu4GG-o?si=qQBLsRfX3aLsZ3yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </td>
+                        
+                        </tr>
+                      </table>
+                    </div>
+                      <p class="text-center">Yoga is essentially a spiritual discipline based on an extremely subtle science, which focuses on bringing harmony between mind and body. It is an art and scince of healthy living. The word ‘Yoga’ is derived from the Sanskrit root ‘Yuj’, meaning ‘to join’ or ‘to yoke’ or ‘to unite’. As per Yogic scriptures the practice of Yoga leads to the union of individual consciousness with that of the Universal Consciousness, indicating a perfect harmony between the mind and body, Man & Nature. According to modern scientists, everything in the universe is just a manifestation of the same quantum firmament. One who experiences this oneness of existence is said to be in yoga, and is termed as a yogi, having attained to a state of freedom referred to as mukti, nirvana or moksha. Thus the aim of Yoga is Self-realization, to overcome all kinds of sufferings leading to 'the state of liberation' (Moksha) or ‘freedom’ (Kaivalya). Living with freedom in all walks of life, health and harmony shall be the main objectives of Yoga practice."Yoga” also refers to an inner science comprising of a variety of methods through which human beings can realize this union and achieve mastery over their destiny.Yoga, being widely considered as an ‘immortal cultural outcome’ of Indus Saraswati Valley civilization – dating back to 2700 B.C., has proved itself catering to both material and spiritual upliftment of humanity.Basic humane values are the very identity of Yoga Sadhana.</p>
+
+                      <div class= "mt-20 container fluid background-two mt-10">
                         <section >
                           <div class=>
                             <h1 id="benefits"class="mt-10">Benefits</h1>
@@ -67,6 +83,10 @@
                           </div>
                         </section>
                         <section>
+                          <div class="image-full">
+                            <img class="gallary-img img-thumbnail"src="Images\small yoga8.jpg" alt="yoga pic 1">
+                            
+                          </div>
                           <div class="img-gallery">                            
                             <img class="gallary-img img-thumbnail"src="Images\small yoga8.jpg" alt="yoga pic 1">
                             <img class="gallary-img img-thumbnail"src="Images\sunrise session.webp" alt="yoga pic 2">
@@ -83,10 +103,10 @@
             <footer class="py-3 my-4">
               <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 
-                <li ><a href="contactus.html" class="px-2 text-body-secondary ">Contact us</a></li>
-                <li ><a href="https://www.facebook.com/" class= "px-2 text-body-secondary ">Facebook</a></li>
-                <li ><a href="https://twitter.com/" class="px-2 text-body-secondary">Twitter</a></li>
-                <li ><a href="https://www.instagram.com/" class="px-2 text-body-secondary">Instagram</a></li>
+                <li ><a href="contactus.html"target= "_blank" class="px-2 text-body-secondary">Contact us</a></li>
+                <li ><a href="https://www.facebook.com/" target= "_blank" class="px-2 text-body-secondary ">Facebook</a></li>
+                <li ><a href="https://twitter.com/"  target= "_blank"class="px-2 text-body-secondary">Twitter</a></li>
+                <li ><a href="https://www.instagram.com/" target= "_blank" class="px-2 text-body-secondary">Instagram</a></li>
                 
               </ul>
               <p class="text-center text-body-secondary">© yoga company 2024, Inc</p>
