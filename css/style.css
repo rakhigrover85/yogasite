@@ -16,10 +16,12 @@ html {
 .container{
   width: 100%;
 }
+
+/*  header desining (need to put header element in center important) */
 .header{
   top:0;
   padding-top: 0%;
-  padding-top: 25px;
+  padding-top: 25px; 
   position:fixed;
   height: 50px;
   width: 100%;
@@ -29,47 +31,6 @@ html {
   font-size: larger;
 }
 
-.submit-text{
-  size: smaller;
-  text-align: center;
-  text-justify: auto;
-  color: #474444;
-  margin-top: 300px;
-  margin-bottom: auto;
-  padding-top: auto;
-  padding-bottom: auto;
-}
-
-.hero-image{
-  padding-top: 100px;
-  display: block;
-  margin: auto;
-  width: 100%;
-  height: auto;
-  animation: animate 3s linear infinite;
-  margin-bottom: 10px;
-}
-@keyframes animate{
-  0%{
-    filter:hue-rotate(0deg);
-  }
-  100%{
-    filter:hue-rotate(360deg);
-  }
-}
-.logo-image{
-  margin-bottom: 15px;
-  margin-left: 0px;
-  margin-right: 500px;
-}
-
-.heroimagetext{
-  color:#474444;
-  font-size:10;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  padding-bottom: 20px;
-  text-align: center;
-}
 .navbar{
   background-color: #8c8189;
   margin-right: 500px;
@@ -107,6 +68,51 @@ html {
 .navbar a:hover{
   background-color: #a19b9b;
 }
+
+/*  change text color */
+.submit-text{
+  size: smaller;
+  text-align: center;
+  text-justify: auto;
+  color: #474444;
+  margin-top: 300px;
+  margin-bottom: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+/*  try different text colour */
+.hero-image{
+  padding-top: 100px;
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  animation: animate 3s linear infinite;
+  margin-bottom: 10px;
+}
+@keyframes animate{ /* Animation added on hero pic*/
+  0%{
+    filter:hue-rotate(0deg);
+  }
+  100%{
+    filter:hue-rotate(360deg);
+  }
+}
+.logo-image{ /* logo image at starting of header bar */
+  margin-bottom: 15px;
+  margin-left: 0px;
+  margin-right: 500px;
+}
+
+.heroimagetext{
+  color:#474444;
+  font-size:10;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
 .img-box{
   width:500px;
   height: 500px;
@@ -129,7 +135,9 @@ html {
   width: 100%;
   margin: auto;
   align-items: center;
-  text-align: center;}
+  text-align: center;
+}
+
 .bodycolor{
     background-color:rgb(227, 227, 173);
 }
@@ -137,7 +145,7 @@ html {
     float:right;
 }
 .floated-right {
-    float: right;
+    float: right;       
     display:flex;
     margin-left: 5px;
   }
