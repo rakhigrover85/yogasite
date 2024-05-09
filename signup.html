@@ -87,7 +87,7 @@
       <!--form made for sign-up data info-->
       <div class="row justify-content-center">
         <div class="col-md-6">
-          <form class="mt-3">
+          <form class="mt-3" action="submit.html">
             <h6 class="mb-4 mt-10 sign-up-text">
               Please fill in sign up form.
             </h6>
@@ -116,8 +116,8 @@
                 <label for="email_id">Email Id</label>
                 <input
                   type="email"
-                  class="form-control"
                   id="email_id"
+                  class="form-control"
                   required
                   autocomplete="off"
                 />
@@ -128,7 +128,7 @@
                   type="text"
                   class="form-control"
                   id="password"
-                  pattern="[a-zA-Z0-9]"
+                  pattern="[a-zA-Z0-9]*"
                   required
                   autocomplete="off"
                 />
@@ -197,9 +197,7 @@
               </div>
               <div row="col-md-6 mt-3">
                 <div class="col-md-3 mt-3">
-                  <a class="btn button btn btn-success mt-3" href="submit.html"
-                    >submit</a
-                  >
+                  <input type="submit" class="btn btn-success" value="Submit" />
                 </div>
               </div>
             </div>

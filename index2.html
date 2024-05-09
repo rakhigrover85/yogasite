@@ -16,36 +16,33 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css\style.css" />
   </head>
   <body>
     <!--header bar-->
-    <div class="full-width-container">
-      <nav
-        class="header navbar navbar-expand-sm navbar-expand{-sm|-md|-lg|-xl} navbar"
-        aria-label="navigation-bar"
-      >
-        <a href="index.html"
-          ><img
-            class="logo-image"
-            src="Images/yogalogo.jpg"
-            width="60"
-            height="50"
-            alt="logo image"
-        /></a>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+      <div class="full-width-container">
+        <a class="navbar-brand" href="index.html">
+          <img width="50" src="Images/yogalogo.jpg" alt="logo image" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navigation-bar"
-          aria-controls="navigation-bar"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navigation-bar">
-          <ul class="navbar-nav mb-2 me=20px mb-sm-0">
+        <div
+          class="collapse justify-content-center navbar-collapse"
+          (style="background-color=grey"
+          )
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
               <a
                 class="nav-link active"
@@ -78,8 +75,9 @@
             </li>
           </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
+
     <section>
       <!--New section for hero image.-->
       <div
@@ -254,6 +252,7 @@
     </section>
 
     <footer class=".footer-background mt-40">
+      <!--footer-->
       <div class="container mt-20 py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
           <li>
