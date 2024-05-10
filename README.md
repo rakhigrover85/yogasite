@@ -61,7 +61,7 @@ Hex Code for colours used is below....
 #a19b9b- button hover
 #d3d3d3 - footer
 
-colours 
+### colours 
 ![readmepic](https://github.com/rakhigrover85/yogasite/assets/166944094/98410a5c-6832-4674-adf7-289a02a5c0db)
 
 
@@ -231,7 +231,7 @@ Choosing a sans serif font for the site - these fonts are suitable for people wi
  haev ensured that the color i use are netural and goes with the topic.
 ### Technologies Used
 
-Languages Used
+#### Languages Used
 HTML, CSS
 
 Balsamiq - Used to create wireframes.
@@ -373,7 +373,7 @@ Additional testing was taken by friends and family on a variety of devices and s
 7. On contact us page input fields work fine and submit button works fine and thank you wondow is displayed.
 
 
-Solved Bugs
+### Solved Bugs
 
 1. Headbar was not full width. it was bind in a container with a fixed width. solution was to make it full width headbar which was achieved by giving it full with container class.
 2. logo image at starting of headbar was not aligned properly. it was done by removing extra margin and padding.
@@ -383,7 +383,7 @@ Solved Bugs
 6. sign up page input fields stacked on in responsive devices.
 
 
-Known Bugs
+### Known Bugs
 
 website needs more work done for make it responsive in landscape mode.
 
@@ -391,14 +391,14 @@ Credits
 Content
 All content for the site, such as introduction benefits types messages and were written by myself i read all about yoga and then wrote it myself.
 
-Media
+### Media
 
 I read about yoga on these websites.
 
 https://www.mea.gov.in/search-result.htm?25096/Yoga:_su_origen,_historia_y_desarrollo
 https://www.mea.gov.in/search-result.htm?25096/Yoga:_su_origen,_historia_y_desarrollo
 
-pics used
+### Pics used
 
 yoga logo image 
 https://www.shutterstock.com/image-vector/woman-silhouette-lotus-yoga-pose-vector-684605068
@@ -438,7 +438,7 @@ https://www.dreamstime.com/old-couple-relaxing-sitting-lotus-pose-senior-men-eld
 
 
 
-Acknowledgments  
+### Acknowledgments  
 
 I would like to express my gratitude to the following individuals:
 
