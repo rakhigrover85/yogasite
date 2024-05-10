@@ -88,7 +88,7 @@ Wireframes were created for mobile, tablet and desktop using balsamiq.
 
 
 
-Features
+## Features
 This website has information about yoga a homepage with hero image and links navigation through page and sign up form and contact form and a page for telling user about all the courses available. all the pages on website are responsive. Home link is on every page and there is a yoga logo image on every page. both of them vavigate us back to home page.
 ### The Home Page
 
@@ -250,17 +250,17 @@ The website is brought online through GitHub Pages - yogasite
 
 To Implement the website using GitHub Pages:
 
-Log in (or sign up) to GitHub.
-Navigate to the repository dedicated to this project, yogasite
+* Log in (or sign up) to GitHub.
+* Navigate to the repository dedicated to this project, yogasite
 rakhigrover85/yogasite
 
-Click on the settings icon.
+* Click on the settings icon.
 
-Choose "pages" from the menu on the left.
+* Choose "pages" from the menu on the left.
 
-From the source options, pick the main branch and save your selection.
+* From the source options, pick the main branch and save your selection.
 
-The website is now live. Please be aware that it might take a few minutes for the changes to take effect.
+* The website is now live. Please be aware that it might take a few minutes for the changes to take effect.
 
 ![Deploy](https://github.com/rakhigrover85/yogasite/assets/166944094/4bd7d1ab-4147-4897-a42d-4494a8aae5c1)
 
