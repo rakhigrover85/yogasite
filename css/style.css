@@ -1,4 +1,4 @@
-body{  
+body {
   display: flex;
   flex-direction: column;
   margin-top: 0%;
@@ -9,11 +9,11 @@ html {
   font-size: 20px;
 }
 
-/*  header desining (need to put header element in center important) */
+/*  header desining  */
 .header{
   top:0;
   padding-top: 0%;
-  padding-top: 25px; 
+  padding-top: 25px;
   position:fixed;
   height: 50px;
   width: 100%;
@@ -29,10 +29,10 @@ html {
   justify-content: center;
   align-items: center;
 }
- 
 
 
-/*  change text color */
+
+/*  Submit text Design */
 .submit-text{
   text-align: center;
   text-justify: auto;
@@ -41,7 +41,7 @@ html {
   margin-bottom: auto;
 }
 
-/*  try different text colour */
+/*  Hero image text colour */
 .hero-image{
   padding-top: 100px;
   display: block;
@@ -59,11 +59,7 @@ html {
     filter:hue-rotate(360deg);
   }
 }
-.logo-image{ /* logo image at starting of header bar */
-  margin-bottom: 15px;
-  margin-left: 0px;
-  margin-right: 500px;
-}
+
 
 .heroimagetext{
   color:#474444;
@@ -82,20 +78,14 @@ html {
 }
 
 .yoga-image{
-  
+
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
-  
+
 }
 
-.presentation {
-  display: flex;
-  width: 100%;
-  margin: auto;
-  align-items: center;
-  text-align: center;
-}
+
 
 .bodycolor{
     background-color:rgb(227, 227, 173);
@@ -104,7 +94,7 @@ html {
     float:right;
 }
 .floated-right {
-    float: right;       
+    float: right;
     display:flex;
     margin-left: 5px;
   }
@@ -113,7 +103,7 @@ html {
     display:flex;
     margin-right: 5px;
   }
- 
+
 
  /* header menu hoover color change*/
 
@@ -172,9 +162,10 @@ html {
  }
 
  .img-gallery img{
- 
+
   cursor:pointer;
  }
+
 
  .img-gallery img:hover{
   transform: scale(0.8) rotate(-15deg);
@@ -238,12 +229,13 @@ html {
         align-items: center;
    }
 
+
    #videos > * {
     margin-bottom: 2rem;
     width: 80%;
     display: grid;
     place-items: center;
-   
+
    }
    .img-gallery{
     justify-content: center;
@@ -256,16 +248,9 @@ html {
    @media only screen and (max-width:589px){
     .header{
       font-size: smaller;
-      height:100px;
-      background:whitesmoke
-      }
-      .navbar-nav ul{
-        display: flex;
-        flex-direction: column;
-        background:lightgrey
+      height: 100px;
       }
 
- 
     .img-gallery{
       justify-content: center;
       align-items: center;
