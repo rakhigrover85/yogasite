@@ -334,9 +334,11 @@ My website is very easy to navigate as i have kept in mind to make it eay to nav
 
 ![thanku-1](https://github.com/rakhigrover85/yogasite/assets/166944094/a4640293-4639-40d0-87da-a23b2d2d13d9)
 
+![no-error-3](https://github.com/rakhigrover85/yogasite/assets/166944094/270960de-6443-4d2d-a7b0-4492629aa46c)
 
+![no-error-1](https://github.com/rakhigrover85/yogasite/assets/166944094/339d0ba3-9c16-4085-aaa4-d709c328a688)
 
-
+![no-error-2](https://github.com/rakhigrover85/yogasite/assets/166944094/c60ec62d-e0b9-41b3-a53b-6fa42f8656eb)
 
 
 ### Comprehensive testing was conducted on the specified devices:
