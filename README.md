@@ -322,6 +322,22 @@ This is acheived by adding media queries on my css files.
 ### Goal3 easy to (navigate) 
 
 My website is very easy to navigate as i have kept in mind to make it eay to navigate for user. Buttons are added to navigate through home page and all other pages.
+![homepage](https://github.com/rakhigrover85/yogasite/assets/166944094/414893e9-9227-4897-be3c-fdfc9f357371)
+
+
+![courses](https://github.com/rakhigrover85/yogasite/assets/166944094/4755ed70-0069-4073-88b2-096f238f07c5)
+
+
+![signup-testing](https://github.com/rakhigrover85/yogasite/assets/166944094/ec7895ec-4d81-4eb0-aed5-d3b595f9265d)
+
+![contact-us testing](https://github.com/rakhigrover85/yogasite/assets/166944094/fa189c24-8f76-4cd7-b938-652466ab5aa6)
+
+![thanku-1](https://github.com/rakhigrover85/yogasite/assets/166944094/a4640293-4639-40d0-87da-a23b2d2d13d9)
+
+
+
+
+
 
 ### Comprehensive testing was conducted on the specified devices:
 
