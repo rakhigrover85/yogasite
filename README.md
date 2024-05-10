@@ -330,6 +330,8 @@ My website is very easy to navigate as i have kept in mind to make it eay to nav
 
 ![signup-testing](https://github.com/rakhigrover85/yogasite/assets/166944094/ec7895ec-4d81-4eb0-aed5-d3b595f9265d)
 
+![testing footer](https://github.com/rakhigrover85/yogasite/assets/166944094/a8910791-a769-4f89-a686-756acff85b75)
+
 ![contact-us testing](https://github.com/rakhigrover85/yogasite/assets/166944094/fa189c24-8f76-4cd7-b938-652466ab5aa6)
 
 ![thanku-1](https://github.com/rakhigrover85/yogasite/assets/166944094/a4640293-4639-40d0-87da-a23b2d2d13d9)
@@ -339,6 +341,9 @@ My website is very easy to navigate as i have kept in mind to make it eay to nav
 ![no-error-1](https://github.com/rakhigrover85/yogasite/assets/166944094/339d0ba3-9c16-4085-aaa4-d709c328a688)
 
 ![no-error-2](https://github.com/rakhigrover85/yogasite/assets/166944094/c60ec62d-e0b9-41b3-a53b-6fa42f8656eb)
+
+
+
 
 
 ### Comprehensive testing was conducted on the specified devices:
@@ -388,7 +393,7 @@ All content for the site, such as introduction benefits types messages and were 
 
 Media
 
-i read about yoga on these websites.
+I read about yoga on these websites.
 
 https://www.mea.gov.in/search-result.htm?25096/Yoga:_su_origen,_historia_y_desarrollo
 https://www.mea.gov.in/search-result.htm?25096/Yoga:_su_origen,_historia_y_desarrollo
